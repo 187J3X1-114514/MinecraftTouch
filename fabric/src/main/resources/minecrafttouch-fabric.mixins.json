@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.homo.minecrafttorch.fabric.Mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "MinecraftTouch-fabric-refmap.json",
+  "plugin": "io.homo.minecrafttorch.fabric.Mixin.MixinManager",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

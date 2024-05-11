@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.homo.minecrafttouch.common.Mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "MinecraftTouch-Common-refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "Mouse.MouseHandlerMixin_Mouse",
+    "TouchHelp.AbstractSelectionListMixin",
+    "TouchHelp.EditBoxMixin",
+    "Window.WindowMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

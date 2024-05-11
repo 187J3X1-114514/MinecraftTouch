@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.homo.minecrafttorch.forge.Mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "MinecraftTouch-forge-refmap.json",
+  "plugin": "io.homo.minecrafttorch.forge.Mixin.MixinManager",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
